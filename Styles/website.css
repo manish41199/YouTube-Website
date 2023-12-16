@@ -1,0 +1,69 @@
+.amazon_link:hover{
+  font-size: 17px;
+  color: rgb(202, 120, 19);
+}
+.Title1{
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: medium;
+}
+
+.Add_to_Cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 150ms, opacity 150ms;
+}
+
+.Add_to_Cart:hover{
+  background-color: rgb(222, 197, 69);
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 11px;
+  padding-bottom: 11px ;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+.Add_to_Cart:active{
+  opacity: 0.5;
+}
+
+.Buy_Button{
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 150ms, opacity 150ms;
+}
+
+.Buy_Button:hover{
+  background-color: rgb(212, 130, 7);
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 11px;
+  padding-bottom: 11px ;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+.Buy_Button:active{
+  opacity: 0.5;
+}
